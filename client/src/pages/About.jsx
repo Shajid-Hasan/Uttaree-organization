@@ -120,13 +120,13 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="bg-[#101820] text-white">
+      <section className="bg-[#f7f6f3] text-ink">
         <Container className="flex flex-col gap-6 py-8 sm:py-10 md:flex-row md:items-center md:justify-between">
           <div className="max-w-3xl">
             <h2 className="font-display text-2xl font-bold sm:text-3xl">{page.mandateTitle}</h2>
-            <p className="mt-3 text-sm leading-relaxed text-white/75 sm:text-base">{site.ownership.statement}</p>
+            <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">{site.ownership.statement}</p>
           </div>
-          <Button to="/contact" variant="light" className="shrink-0">{page.mandateLink}</Button>
+          <Button to="/contact" className="shrink-0">{page.mandateLink}</Button>
         </Container>
       </section>
 
@@ -189,7 +189,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="border-t border-sand bg-[#f7f6f3]">
+      <section className="border-t border-sand bg-white">
         <Container className="grid items-end gap-8 py-10 sm:py-12 lg:grid-cols-[1.4fr_auto] xl:py-14">
           <div>
             <div className="mb-3 flex items-center gap-4">
