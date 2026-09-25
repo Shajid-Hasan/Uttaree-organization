@@ -1,0 +1,153 @@
+{
+  "name": "Uttaree",
+  "legalName": "Uttaree",
+  "tagline": "A collective enterprise of separate ventures.",
+  "founded": 2024,
+  "location": "Rangpur, Bangladesh",
+  "summary": "Uttaree is a collectively owned enterprise. Founding members and shareholders own the group. Each venture is run by a yearly project committee.",
+  "logo": "",
+  "favicon": "/favicon.svg",
+  "seo": {
+    "title": "Uttaree",
+    "description": "Uttaree is a Rangpur-based enterprise with ventures in electronics, agriculture, and art education."
+  },
+  "ownership": {
+    "foundingMembers": 20,
+    "shareholders": 46,
+    "statement": "Uttaree is not a single-owner firm. It was established in 2024 by its founding members, with shareholders in the ownership. The public site shows those counts only. Personal contact details of members and shareholders are not published."
+  },
+  "committeeNote": "Each venture has its own committee, selected for one year. The committee is a project director and an assistant director. When the year changes, the new names are added here and the previous year stays on record.",
+  "mission": {
+    "title": "Our mission",
+    "text": "To run Uttaree as a shared enterprise. Founding members and shareholders own the group together. Electronics, agriculture, and the art school each do their own work, in their own place, under a project director and an assistant director chosen for that year. People reach the work through the Uttaree office, not through personal numbers."
+  },
+  "vision": {
+    "title": "Our vision",
+    "text": "A Rangpur enterprise that stays collectively owned, with each venture understandable on its own: what it does, where it works, and who is responsible for the year. The public record shows ownership as counts, keeps every committee year, and uses one office for contact."
+  },
+  "story": [
+    "Uttaree started in 2024 in Rangpur as a shared enterprise. The people who formed it keep ownership together, and the work is organised as separate ventures rather than one shop under one name.",
+    "The ventures cover electronics, agriculture, and art education. A visitor can read what each one does, where it works, and how to reach the Uttaree office. Day-to-day contact is through that office, not through personal numbers."
+  ],
+  "hero": [
+    {
+      "id": "group",
+      "tone": "blue",
+      "eyebrow": "Rangpur, since 2024",
+      "title": "VENTURES RUN UNDER ONE ENTERPRISE",
+      "text": "Electronics, agriculture, and an art school. Each venture has its own yearly committee.",
+      "image": "",
+      "label": "Uttaree",
+      "ctaLabel": "Explore companies",
+      "ctaTo": "/companies"
+    },
+    {
+      "id": "agro",
+      "tone": "purple",
+      "eyebrow": "Agriculture",
+      "title": "Farming and agro support in Rangpur.",
+      "text": "Crop production, organic farming, and consultancy from the Uttaree Agro venture.",
+      "image": "",
+      "label": "Uttaree Agro",
+      "ctaLabel": "Explore",
+      "ctaTo": "/companies/uttaree-agro"
+    },
+    {
+      "id": "school",
+      "tone": "indigo",
+      "eyebrow": "Education",
+      "title": "Art classes at Shukurer Hat.",
+      "text": "Drawing, design, workshops, and exhibitions at Uttaree Art School in Mithapukur.",
+      "image": "",
+      "label": "Uttaree Art School",
+      "ctaLabel": "Explore",
+      "ctaTo": "/companies/uttaree-art-school"
+    }
+  ],
+  "sections": {
+    "whoEyebrow": "Who we are",
+    "whoTitle": "A group of ventures, owned together.",
+    "companiesEyebrow": "Our companies",
+    "companiesTitle": "The ventures operating now.",
+    "companiesIntro": "Open a venture to see what it offers, where it works, and which committee is on record for the year.",
+    "newsEyebrow": "News",
+    "newsTitle": "From the ventures.",
+    "newsIntro": "What Uttaree Electronics, Uttaree Agro, and Uttaree Art School are doing. Questions still go to the Rangpur office.",
+    "contactEyebrow": "Contact",
+    "contactTitle": "Write to the Uttaree office."
+  },
+  "contact": {
+    "phone": "+880 1790719702",
+    "phoneHref": "+8801790719702",
+    "email": "uttaree.info@gmail.com",
+    "address": "Rangpur, Bangladesh",
+    "hours": "",
+    "mapUrl": "https://maps.google.com/?q=Rangpur,+Bangladesh"
+  },
+  "social": [
+    { "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100093309774432" },
+    { "label": "Instagram", "url": "https://www.instagram.com" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com" },
+    { "label": "YouTube", "url": "https://www.youtube.com" },
+    { "label": "X", "url": "https://x.com" },
+    { "label": "TikTok", "url": "https://www.tiktok.com" },
+    { "label": "WhatsApp", "url": "https://wa.me/8801790719702" }
+  ],
+  "clients": [],
+  "aboutPage": {
+    "kind": "Collective enterprise",
+    "headlineLead": "One enterprise,",
+    "headlineAccent": "multiple ventures.",
+    "lead": "Founded in Rangpur in 2024, Uttaree is a jointly owned enterprise created by its founding members. Its activities are organised into separate ventures, each focused on its own area of work.",
+    "cycleEyebrow": "Yearly committee",
+    "cycleTitle": "Electronics, Agro, and the art school.",
+    "cycleIntro": "Each venture works in its own place. A project director and an assistant director are chosen for that venture for the year. People still reach the work through the Rangpur office.",
+    "cycleLink": "Open the ventures",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Electronics",
+        "text": "Home appliances and servicing in Dhaka, from 2026."
+      },
+      {
+        "number": "02",
+        "title": "Agro",
+        "text": "Crop production, organic farming, and consultancy in Rangpur, from 2024."
+      },
+      {
+        "number": "03",
+        "title": "Art School",
+        "text": "Classes, design training, and exhibitions at Shukurer Hat, Mithapukur, from 2025."
+      },
+      {
+        "number": "04",
+        "title": "This year's lead",
+        "text": "A project director and an assistant director for that venture. Names are listed when they are confirmed."
+      }
+    ],
+    "mandateTitle": "Owned together, not by one person.",
+    "mandateLink": "Contact the office",
+    "statNotes": {
+      "foundingMembers": "The people who formed the enterprise in 2024.",
+      "shareholders": "A count only. Personal details are not published.",
+      "ventures": "Electronics, agriculture, and an art school.",
+      "established": "The group began in Rangpur."
+    },
+    "venturesEyebrow": "The ventures",
+    "venturesTitle": "Three operating ventures.",
+    "committeeEyebrow": "How the work is led",
+    "committeeTitle": "Committees change with the year.",
+    "committeeCard": "On record this year",
+    "contactLink": "Contact the office",
+    "closeEyebrow": "One office",
+    "closeTitle": "Electronics, Agro, and the art school.",
+    "closeText": "Appliances in Dhaka, farming in Rangpur, and classes at Shukurer Hat. Questions about any of them go to the Uttaree office, not to a personal number."
+  },
+  "nav": [
+    { "label": "Home", "to": "/" },
+    { "label": "About Us", "to": "/about" },
+    { "label": "Our Companies", "to": "/companies", "children": true },
+    { "label": "News", "to": "/news" },
+    { "label": "Contact", "to": "/contact" }
+  ]
+}

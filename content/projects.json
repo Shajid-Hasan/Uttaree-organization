@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "slug": "uttaree-electronics",
+      "name": "Uttaree Electronics",
+      "shortName": "Electronics",
+      "category": "Technology",
+      "status": "Active",
+      "established": 2026,
+      "location": "Dhaka, Bangladesh",
+      "summary": "Retail and servicing of home appliances and electronic products, based in Dhaka.",
+      "about": [
+        "Uttaree Electronics sells and services home appliances in Dhaka, including televisions and refrigerators.",
+        "The venture opened in 2026. A project director and an assistant director lead it for the year. Customers reach the work through the Uttaree office."
+      ],
+      "services": [
+        "Home appliances",
+        "Television",
+        "Refrigerator",
+        "Product servicing"
+      ],
+      "quote": "Practical electronics, sold and serviced under the Uttaree name.",
+      "image": "",
+      "logo": "",
+      "facts": [],
+      "committees": [
+        {
+          "year": 2026,
+          "current": true,
+          "director": "",
+          "assistantDirector": ""
+        }
+      ]
+    },
+    {
+      "slug": "uttaree-agro",
+      "name": "Uttaree Agro",
+      "shortName": "Agro",
+      "category": "Agriculture",
+      "status": "Active",
+      "established": 2024,
+      "location": "Rangpur, Bangladesh",
+      "summary": "Crop production, organic farming, and agro consultancy in Rangpur.",
+      "about": [
+        "Uttaree Agro is the group's farming venture. The work covers crop production, organic farming, consultancy, and practical agri-support for the Rangpur area.",
+        "This was the first venture, started in 2024. A new project director and assistant director are selected for it each year."
+      ],
+      "services": [
+        "Crop production",
+        "Organic farming",
+        "Agro consultancy",
+        "Agri-support"
+      ],
+      "quote": "Farming work rooted in Rangpur.",
+      "image": "",
+      "logo": "",
+      "facts": [],
+      "committees": [
+        { "year": 2024, "current": false, "director": "", "assistantDirector": "" },
+        { "year": 2025, "current": false, "director": "", "assistantDirector": "" },
+        { "year": 2026, "current": true, "director": "", "assistantDirector": "" }
+      ]
+    },
+    {
+      "slug": "uttaree-art-school",
+      "name": "Uttaree Art School",
+      "shortName": "Art School",
+      "category": "Education",
+      "status": "Active",
+      "established": 2025,
+      "location": "Shukurer Hat, Mithapukur, Rangpur",
+      "summary": "Fine-art classes, digital design training, workshops, and student exhibitions.",
+      "about": [
+        "Uttaree Art School teaches drawing, painting, and digital design, and holds workshops and exhibitions. The studio is at Shukurer Hat, Mithapukur.",
+        "Families and students should use the Uttaree office number for admission questions. The school's yearly committee is published here by name and role only."
+      ],
+      "services": [
+        "Art classes",
+        "Digital design training",
+        "Workshops",
+        "Exhibitions"
+      ],
+      "quote": "A place to learn drawing, design, and how to show the work.",
+      "image": "",
+      "logo": "",
+      "facts": [
+        { "label": "Students", "value": "40" }
+      ],
+      "committees": [
+        { "year": 2025, "current": false, "director": "", "assistantDirector": "" },
+        { "year": 2026, "current": true, "director": "", "assistantDirector": "" }
+      ]
+    }
+  ]
+}

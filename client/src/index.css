@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #111827;
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-gold: #2563eb;
+  --color-paper: #f9fafb;
+  --color-sand: #e5e7eb;
+  --color-muted: #4b5563;
+  --font-display: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f9fafb;
+  color: #111827;
+  font-family: var(--font-body);
+  overflow-x: clip;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  background: #1e40af;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

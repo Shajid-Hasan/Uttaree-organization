@@ -1,0 +1,49 @@
+{
+  "landings": [
+    {
+      "slug": "agro",
+      "projectSlug": "uttaree-agro",
+      "active": true,
+      "eyebrow": "Uttaree Agro",
+      "title": "Farming support from a Rangpur venture.",
+      "text": "Crop production, organic farming, and agro consultancy. Tell the office what you need and someone from Uttaree will call you back.",
+      "points": [
+        "Based in Rangpur",
+        "Crop production and organic farming",
+        "Consultancy through the Uttaree office"
+      ],
+      "image": "",
+      "ctaLabel": "Request a call"
+    },
+    {
+      "slug": "electronics",
+      "projectSlug": "uttaree-electronics",
+      "active": true,
+      "eyebrow": "Uttaree Electronics",
+      "title": "Appliances and servicing in Dhaka.",
+      "text": "Televisions, refrigerators, and other home appliances, plus product servicing. Leave your number and the office will reply.",
+      "points": [
+        "Dhaka venture",
+        "Sales and servicing",
+        "One office number for the group"
+      ],
+      "image": "",
+      "ctaLabel": "Request a call"
+    },
+    {
+      "slug": "art-school",
+      "projectSlug": "uttaree-art-school",
+      "active": true,
+      "eyebrow": "Uttaree Art School",
+      "title": "Art classes at Shukurer Hat.",
+      "text": "Classes, digital design training, workshops, and exhibitions in Mithapukur. Ask the office about joining.",
+      "points": [
+        "Shukurer Hat, Mithapukur",
+        "Classes and workshops",
+        "Admission through the Uttaree office"
+      ],
+      "image": "",
+      "ctaLabel": "Ask about classes"
+    }
+  ]
+}

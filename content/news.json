@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "slug": "agro-work-in-rangpur",
+      "projectSlug": "uttaree-agro",
+      "title": "Uttaree Agro farms and advises from Rangpur",
+      "date": "2025-08-12",
+      "excerpt": "The group's first venture grows crops, supports organic farming, and offers agro consultancy in Rangpur.",
+      "image": "",
+      "body": [
+        "Uttaree Agro is the venture the group opened in Rangpur in 2024. The work is crop production, organic farming, agro consultancy, and practical support for farms in the area.",
+        "It is run on its own yearly committee, separate from the electronics shop and the art school. Anyone who wants to talk about the farming work should call or write to the Uttaree office."
+      ]
+    },
+    {
+      "slug": "art-school-at-shukurer-hat",
+      "projectSlug": "uttaree-art-school",
+      "title": "Art classes are open at Shukurer Hat",
+      "date": "2025-11-04",
+      "excerpt": "Uttaree Art School teaches drawing, painting, and digital design, and holds workshops and exhibitions in Mithapukur.",
+      "image": "",
+      "body": [
+        "Uttaree Art School opened in 2025 at Shukurer Hat, Mithapukur. Students can take art classes and digital design training, and the school holds workshops and exhibitions.",
+        "Admission questions go to the Uttaree office, not to a personal number. The school's committee for the year is listed on the venture page once the director and assistant director are confirmed."
+      ]
+    },
+    {
+      "slug": "electronics-opens-in-dhaka",
+      "projectSlug": "uttaree-electronics",
+      "title": "Uttaree Electronics opens in Dhaka",
+      "date": "2026-03-18",
+      "excerpt": "The newest venture sells and services home appliances, including televisions and refrigerators, from Dhaka.",
+      "image": "",
+      "body": [
+        "Uttaree Electronics started in 2026 in Dhaka. The shop sells home appliances, including televisions and refrigerators, and services the products it handles.",
+        "It is part of the same enterprise as the Rangpur farm work and the art school, with its own committee for the year. Customers use the Uttaree office phone and email."
+      ]
+    }
+  ]
+}
