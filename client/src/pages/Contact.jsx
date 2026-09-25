@@ -23,8 +23,8 @@ export default function Contact() {
   ];
 
   return (
-    <section className="bg-[#f7f6f3] py-10 sm:py-12 xl:py-14">
-      <Container className="grid items-start gap-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
+    <section className="bg-[#f7f6f3] py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
+      <Container className="grid items-start gap-8 md:gap-10 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] xl:gap-14 2xl:gap-16">
         <div>
           {project && <Button to={`/companies/${project.slug}`} className="mb-6 w-fit">Back</Button>}
           <div className="mb-3 flex items-center gap-4">

@@ -29,7 +29,7 @@ export default function Header({ site, projects }) {
           <Logo src={site.logo || logoMark} alt={site.name} className="h-8 w-auto sm:h-9 md:h-10 xl:h-11 2xl:h-12" />
         </Link>
 
-        <nav className="hidden items-center gap-5 md:flex xl:gap-8 2xl:gap-10" aria-label="Primary">
+        <nav className="hidden min-w-0 items-center gap-3 md:flex lg:gap-5 xl:gap-8 2xl:gap-10" aria-label="Primary">
           {site.nav.map((item) =>
             item.children ? (
               <div
@@ -74,7 +74,7 @@ export default function Header({ site, projects }) {
         <div className="flex items-center gap-3">
           <Link
             to="/contact"
-            className="hidden border border-ink px-4 py-2 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-ink transition-colors hover:border-primary hover:bg-primary hover:text-white sm:inline-flex"
+            className="hidden border border-ink px-4 py-2 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-ink transition-colors hover:border-primary hover:bg-primary hover:text-white lg:inline-flex"
           >
             Get in touch →
           </Link>

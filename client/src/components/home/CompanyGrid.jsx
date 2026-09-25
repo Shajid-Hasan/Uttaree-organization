@@ -15,7 +15,7 @@ const venturePhotos = {
 
 export default function CompanyGrid({ site, projects }) {
   return (
-    <section className="bg-[#f7f6f3] py-10 sm:py-12 xl:py-14">
+    <section className="bg-[#f7f6f3] py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
       <Container>
         <Reveal>
           <div className="mb-3 flex items-center gap-4">

@@ -99,7 +99,7 @@ export default function HeroSlider({ slides = [], stats = [] }) {
 
       {stats.length > 0 && (
         <div className="bg-white">
-          <Container className="grid grid-cols-2 gap-x-6 gap-y-8 py-8 sm:py-10 md:grid-cols-4 md:gap-0 md:py-12">
+          <Container className="grid grid-cols-2 gap-x-4 gap-y-6 py-6 sm:gap-x-6 sm:py-8 md:grid-cols-4 md:gap-0 md:py-10 xl:py-12 2xl:py-14">
             {stats.map((item, index) => (
               <div key={item.label} className={index > 0 ? 'md:border-l md:border-sand md:pl-8' : 'md:pr-8'}>
                 <p className="font-display text-3xl font-medium tracking-tight text-ink sm:text-4xl"><CountUp value={item.value} /></p>

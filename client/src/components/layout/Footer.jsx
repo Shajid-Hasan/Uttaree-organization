@@ -8,7 +8,7 @@ export default function Footer({ site, projects }) {
 
   return (
     <footer className="border-t border-sand bg-[#f7f6f3] text-ink">
-      <Container className="grid gap-10 py-14 sm:grid-cols-2 sm:py-16 xl:grid-cols-4 xl:py-20">
+      <Container className="grid gap-8 py-8 sm:grid-cols-2 sm:py-10 md:gap-10 md:py-12 xl:grid-cols-4 xl:py-14 2xl:py-16">
         <div>
           <Logo src={site.logo || logoMark} alt={site.name} className="h-12 w-auto sm:h-14" />
           <p className="mt-5 max-w-xs text-sm leading-7 text-muted">{site.summary}</p>

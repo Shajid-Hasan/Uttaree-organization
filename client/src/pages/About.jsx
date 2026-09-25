@@ -35,7 +35,7 @@ export default function About() {
 
   return (
     <article className="bg-white text-ink">
-      <section className="relative overflow-hidden pt-10 pb-6 sm:pt-12 sm:pb-8 xl:pt-16 xl:pb-8">
+      <section className="relative overflow-hidden pt-8 pb-6 sm:pt-10 sm:pb-8 md:pt-12 xl:pt-14 xl:pb-8 2xl:pt-16">
         <motion.p
           aria-hidden="true"
           className="pointer-events-none absolute -top-6 right-4 font-display text-[7rem] font-bold leading-none text-primary/10 sm:right-10 sm:text-[10rem] xl:text-[14rem]"
@@ -65,7 +65,7 @@ export default function About() {
       </section>
 
       <section id="mission" className="scroll-mt-20 bg-[#f7f6f3]">
-        <Container className="pt-8 pb-10 sm:pb-12 xl:pt-10 xl:pb-14">
+        <Container className="pt-8 pb-8 sm:pb-10 md:pt-10 md:pb-12 xl:pb-14 2xl:pb-16">
           <div className="mb-6 flex items-center gap-4">
             <span className="h-px w-8 bg-ink/30" />
             <p className="text-[0.68rem] font-medium uppercase tracking-[0.28em] text-muted">Purpose</p>
@@ -86,7 +86,7 @@ export default function About() {
       </section>
 
       <section id="ownership" className="scroll-mt-20 bg-white">
-        <Container className="grid grid-cols-2 gap-x-8 gap-y-8 py-10 sm:py-12 lg:grid-cols-4 lg:gap-0 lg:py-14">
+        <Container className="grid grid-cols-2 gap-x-6 gap-y-8 py-8 sm:gap-x-8 sm:py-10 md:py-12 lg:grid-cols-4 lg:gap-0 lg:py-12 xl:py-14 2xl:py-16">
           {stats.map((item, index) => (
             <div key={item.label} className={index > 0 ? 'lg:border-l lg:border-sand lg:pl-8' : 'lg:pr-8'}>
               <p className="font-display text-4xl font-medium tracking-tight text-ink sm:text-5xl"><CountUp value={item.value} /></p>
@@ -98,7 +98,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section className="py-10 sm:py-12 xl:py-14">
+      <section className="py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
         <Container>
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">
@@ -130,7 +130,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section id="ventures" className="scroll-mt-20 py-10 sm:py-12 xl:py-14">
+      <section id="ventures" className="scroll-mt-20 py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
         <Container>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">{page.venturesEyebrow}</p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-bold leading-tight sm:text-4xl xl:text-5xl">{page.venturesTitle}</h2>
@@ -158,7 +158,7 @@ export default function About() {
         </Container>
       </section>
 
-      <section id="committees" className="scroll-mt-20 border-t border-sand bg-paper py-10 sm:py-12 xl:py-14">
+      <section id="committees" className="scroll-mt-20 border-t border-sand bg-paper py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
         <Container className="grid items-start gap-8 lg:grid-cols-2">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">{page.committeeEyebrow}</p>
@@ -190,7 +190,7 @@ export default function About() {
       </section>
 
       <section className="border-t border-sand bg-white">
-        <Container className="grid items-end gap-8 py-10 sm:py-12 lg:grid-cols-[1.4fr_auto] xl:py-14">
+        <Container className="grid items-end gap-6 py-8 sm:gap-8 sm:py-10 md:py-12 lg:grid-cols-[1.4fr_auto] xl:py-14 2xl:py-16">
           <div>
             <div className="mb-3 flex items-center gap-4">
               <span className="h-px w-8 bg-ink/30" />

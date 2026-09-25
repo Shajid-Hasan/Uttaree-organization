@@ -39,7 +39,7 @@ export default function Company() {
   return (
     <article className="bg-white text-ink">
       <section className="bg-[#f7f6f3]">
-        <Container className="grid items-center gap-8 py-10 sm:py-12 lg:grid-cols-[1.05fr_0.95fr] xl:py-14">
+        <Container className="grid items-center gap-6 py-8 sm:gap-8 sm:py-10 md:py-12 lg:grid-cols-[1.05fr_0.95fr] xl:py-14 2xl:py-16">
           <div>
             <Button to="/companies" className="w-fit">Back</Button>
             <div className="mb-3 mt-6 flex items-center gap-4">
@@ -49,17 +49,17 @@ export default function Company() {
             <h1 className="max-w-xl font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl xl:text-5xl">{project.name}</h1>
             <p className="mt-4 max-w-xl text-sm leading-7 text-muted sm:text-base">{project.summary}</p>
           </div>
-          {photo && <img src={photo} alt="" className="h-56 w-full object-cover sm:h-72 xl:h-80" />}
+          {photo && <img src={photo} alt="" className="h-48 w-full object-cover sm:h-56 md:h-64 xl:h-72 2xl:h-80" />}
         </Container>
       </section>
 
-      <Container className="grid items-start gap-10 py-10 sm:py-12 lg:grid-cols-[1.45fr_0.55fr] xl:gap-16 xl:py-14">
+      <Container className="grid items-start gap-8 py-8 sm:py-10 md:gap-10 md:py-12 lg:grid-cols-[1.45fr_0.55fr] xl:gap-12 xl:py-14 2xl:gap-16 2xl:py-16">
         <div>
           <div className="max-w-2xl space-y-4 text-sm leading-7 text-muted sm:text-base">
             {project.about.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
 
-          <h2 className="mt-10 font-display text-2xl font-semibold tracking-tight sm:text-3xl">What it offers</h2>
+          <h2 className="mt-8 font-display text-2xl font-semibold tracking-tight sm:text-3xl">What it offers</h2>
           <span className="mt-3 block h-px w-8 bg-primary" />
           <ul className="mt-4 grid border-t border-sand sm:grid-cols-2">
             {project.services.map((service) => (
@@ -68,13 +68,13 @@ export default function Company() {
           </ul>
 
           {project.quote && (
-            <blockquote className="mt-10 max-w-xl">
+            <blockquote className="mt-8 max-w-xl">
               <span className="block h-px w-8 bg-primary" />
               <p className="mt-4 font-display text-xl font-medium leading-snug tracking-tight sm:text-2xl">{project.quote}</p>
             </blockquote>
           )}
 
-          <div className="mt-12">
+          <div className="mt-8">
             <CommitteeList project={project} note={site.committeeNote} />
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function Company() {
 
       {related.length > 0 && (
         <section className="border-t border-sand bg-white">
-          <Container className="py-10 sm:py-12 xl:py-14">
+          <Container className="py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
             <div className="mb-6 flex items-center gap-4">
               <span className="h-px w-8 bg-ink/30" />
               <p className="text-[0.68rem] font-medium uppercase tracking-[0.28em] text-muted">News</p>

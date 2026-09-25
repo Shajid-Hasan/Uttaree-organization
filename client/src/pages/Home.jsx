@@ -34,28 +34,28 @@ export default function Home() {
     <>
       <HeroSlider slides={site.hero} stats={stats} />
 
-      <section className="bg-white py-16 sm:py-20 xl:py-28">
-        <Container className="grid items-center gap-10 lg:grid-cols-2 xl:gap-16">
+      <section className="bg-white py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
+        <Container className="grid items-center gap-8 md:gap-10 lg:grid-cols-2 xl:gap-12 2xl:gap-16">
           <Reveal>
-            <div className="mb-6 flex items-center gap-4">
+            <div className="mb-3 flex items-center gap-4">
               <span className="h-px w-8 bg-ink/30" />
               <p className="text-[0.68rem] font-medium uppercase tracking-[0.28em] text-muted">{site.sections.whoEyebrow}</p>
             </div>
             <h2 className="max-w-xl font-display text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl xl:text-5xl">
               {site.sections.whoTitle}
             </h2>
-            <div className="mt-6 max-w-xl space-y-4 text-sm leading-7 text-muted sm:text-base sm:leading-8">
+            <div className="mt-4 max-w-xl space-y-3 text-sm leading-7 text-muted sm:text-base">
               {site.story.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
-            <Button to="/about" className="mt-8">Discover more</Button>
+            <Button to="/about" className="mt-6">Discover more</Button>
           </Reveal>
           <Reveal delay={0.08}>
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {whoPictures.map((picture) => (
                 <div key={picture.alt} className="overflow-hidden bg-[#f7f6f3]">
-                  <img src={picture.src} alt={picture.alt} className="h-36 w-full object-cover transition duration-500 ease-out hover:scale-105 sm:h-44 md:h-52 xl:h-56" />
+                  <img src={picture.src} alt={picture.alt} className="h-32 w-full object-cover transition duration-500 ease-out hover:scale-105 sm:h-40 md:h-44 xl:h-52 2xl:h-56" />
                 </div>
               ))}
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
         </section>
       )}
 
-      <section className="bg-white py-10 sm:py-12 xl:py-14">
+      <section className="bg-white py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
         <Container>
           <Reveal>
             <div className="mb-3 flex items-center gap-4">

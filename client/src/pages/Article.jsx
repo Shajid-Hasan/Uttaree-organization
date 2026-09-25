@@ -20,7 +20,7 @@ export default function Article() {
 
   return (
     <article className="bg-white">
-      <Container className="max-w-3xl py-16 sm:py-20 xl:max-w-4xl xl:py-28">
+      <Container className="max-w-3xl py-8 sm:py-10 md:py-12 xl:max-w-4xl xl:py-14 2xl:max-w-5xl 2xl:py-16">
         <Button to="/news" className="w-fit">Back</Button>
         <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="text-[0.68rem] font-medium uppercase tracking-[0.18em] text-muted">{formatDate(article.date)}</p>
@@ -36,7 +36,7 @@ export default function Article() {
           {article.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
         {project && (
-          <Button to={`/companies/${project.slug}`} className="mt-10">
+          <Button to={`/companies/${project.slug}`} className="mt-8">
             {project.shortName || project.name}
           </Button>
         )}

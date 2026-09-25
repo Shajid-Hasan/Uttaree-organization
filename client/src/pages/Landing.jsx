@@ -34,7 +34,7 @@ export default function Landing() {
       <main>
         <section className="grid lg:grid-cols-2">
           <MediaFrame src={landing.image} alt="" label={landing.eyebrow} className="min-h-64 lg:min-h-screen" />
-          <Container className="flex flex-col justify-center py-8 sm:py-12 xl:py-16">
+          <Container className="flex flex-col justify-center py-8 sm:py-10 md:py-12 xl:py-14 2xl:py-16">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">{landing.eyebrow}</p>
             <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl xl:text-5xl">{landing.title}</h1>
             <p className="mt-4 text-sm text-muted sm:text-base xl:text-lg">{landing.text}</p>
